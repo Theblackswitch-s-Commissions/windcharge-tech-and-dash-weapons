@@ -13,7 +13,7 @@
     "id": "tg",
     "name": "tg",
     "description": "",
-    "version": "1.2.2a",
+    "version": "1.2.2c",
     "require": [
         "bolt"
     ],
