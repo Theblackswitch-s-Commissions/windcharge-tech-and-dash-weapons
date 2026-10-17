@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "place_score_menu_here"
+                                    ]
+                                },
+                                "minecraft:custom_name": "Score menu placer"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

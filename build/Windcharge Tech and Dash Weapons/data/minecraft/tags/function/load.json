@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#theblackswitch:load",
+    {
+      "id": "tg:load",
+      "required": false
+    }
+  ]
+}

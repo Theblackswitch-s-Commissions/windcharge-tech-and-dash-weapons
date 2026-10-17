@@ -1,7 +1,0 @@
-{
-  "values": [
-    "tg:tick",
-    "tg:windcharge/calc_player_motion",
-    "tg:check_place_score_menu"
-  ]
-}

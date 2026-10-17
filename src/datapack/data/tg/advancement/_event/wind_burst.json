@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:wind_burst"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "movement": {
+                        "fall_distance": {
+                            "min": 1.5
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tg:_event/wind_burst"
+    }
+}

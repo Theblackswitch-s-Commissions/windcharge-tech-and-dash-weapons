@@ -1,0 +1,7 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:use_cooldown": {"seconds": 5, "cooldown_group": "double_dash"},
+        "minecraft:custom_data": {"tg": {"special_weapon": true, "weapon": "double_dash1"}}
+	}
+}

@@ -1,5 +1,0 @@
-{
-    "input": "src/flare/main.fl",
-    "validation_level": "strict",
-    "nbt_schema_missing": "error"
-}

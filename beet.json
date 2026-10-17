@@ -4,18 +4,18 @@
             "libraries/SwitchLib-v2.0.3.zip",
             "src/datapack"
         ],
-        "name": "Efou's Training Ground Datapack"
+        "name": "Windcharge Tech and Dash Weapons"
     },
     "pipeline": [
-        "plugins.aliases",
-        "flare.beet"
+        "mecha",
+        "plugins.aliases"
     ],
     "id": "tg",
     "name": "tg",
     "description": "",
-    "version": "1.0.2a",
+    "version": "1.1.2a",
     "require": [
-        "flare"
+        "bolt"
     ],
     "output": "build",
     "meta": {
@@ -31,5 +31,6 @@
                 "comment": "The switch lib major version"
             }
         ]
-    }
+    },
+    "minecraft": "1.21.11"
 }

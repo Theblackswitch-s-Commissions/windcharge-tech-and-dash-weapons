@@ -1,0 +1,52 @@
+{
+    "description": {
+        "text": "This enchantment is used internally. Use at own risk!",
+        "color": "red"
+    },
+    "anvil_cost": 2,
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "requirements": {
+                    "condition": "minecraft:enchantment_active_check",
+                    "active": false
+                },
+                "effect": {
+                    "type": "minecraft:explode",
+                    "attribute_to_user": true,
+                    "knockback_multiplier": 4,
+                    "radius": 3.5,
+                    "create_fire": false,
+                    "block_interaction": "trigger",
+                    "small_particle": {
+                        "type": "minecraft:gust"
+                    },
+                    "large_particle": {
+                        "type": "minecraft:gust_emitter_small"
+                    },
+                    "sound": "minecraft:entity.wind_charge.wind_burst"
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "tg:windcharge/explode/reset"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 55,
+        "per_level_above_first": 20
+    },
+    "max_level": 2,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 20
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "minecraft:poisonous_potato",
+    "weight": 5
+}

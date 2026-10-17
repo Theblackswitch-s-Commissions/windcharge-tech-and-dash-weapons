@@ -1,0 +1,1 @@
+item replace entity @s saddle with minecraft:saddle[minecraft:enchantments={"tg:internal/dash":1}]
